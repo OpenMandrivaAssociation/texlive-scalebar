@@ -53,6 +53,7 @@ microscope image.
 #- source
 %doc %{_texmfdistdir}/source/latex/scalebar/scalebar.dtx
 %doc %{_texmfdistdir}/source/latex/scalebar/scalebar.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +64,5 @@ microscope image.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
