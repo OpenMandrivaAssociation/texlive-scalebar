@@ -1,6 +1,6 @@
 Name:		texlive-scalebar
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Create scalebars for maps, diagrams or photos
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/scalebar
